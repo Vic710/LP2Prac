@@ -1,0 +1,32 @@
+body {
+      background-color: #f8f9fa;
+    }
+
+.hero {
+    background: linear-gradient(to right, #343a40, #212529);
+    color: white;
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 15px auto 0;
+}
+
+footer {
+    border-top: 3px solid #ffc107;
+}
